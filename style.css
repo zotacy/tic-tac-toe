@@ -20,9 +20,28 @@ main {
 }
 
 .cell{
+    cursor: hand;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: white;
+    background-color: white;
     border: 1px solid black;
+}
+
+#reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background: grey;
+    border: 2px solid black;
+    color: white;
+}
+
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
 }
