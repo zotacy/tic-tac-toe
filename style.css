@@ -16,7 +16,7 @@ main {
     display: grid;
     grid-template-rows: 100px 100px 100px;
     grid-template-columns: 100px 100px 100px;
-    border:2px solid red;
+    /* border:2px solid red; */
 }
 
 .cell{
@@ -25,19 +25,4 @@ main {
     justify-content: center;
     background: white;
     border: 1px solid black;
-}
-/* ------------ */
-.game-board {
-    display: grid;
-    grid-template-rows: 200px 200px 200px;
-    grid-template-columns: 200px 200px 200px;
-}
-
-.box {
-  background: #444;
-  border: 1px solid #555;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #AAA;
 }
